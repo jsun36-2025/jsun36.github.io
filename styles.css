@@ -1,0 +1,93 @@
+body {
+  font-family:"Courier New", Courier, monospace;
+  margin:0;
+  padding:0;
+  background: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?_gl=1*1bug4n4*_ga*MjU1MzAyMzcxLjE3NjE1MjQ3MjA.*_ga_8JE65Q40S6*czE3NjE1MjQ3MjAkbzEkZzEkdDE3NjE1MjQ3MjMkajU3JGwwJGgw);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(51, 51, 51);
+}
+
+header {
+  background: #ffffff5d;
+  border-bottom: 1px solid #ebe8e8;
+  padding: 16px 16px;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline wavy yellow;
+}
+
+main {
+  padding: 16px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#Manifestation {
+  background-color: rgba(255, 255, 255, 0.8); 
+}
+  
+button {
+  background: url(https://images.pexels.com/photos/1331710/pexels-photo-1331710.jpeg?_gl=1*8pm51y*_ga*MjU1MzAyMzcxLjE3NjE1MjQ3MjA.*_ga_8JE65Q40S6*czE3NjE1MzAwNjUkbzIkZzEkdDE3NjE1MzAwNzEkajU0JGwwJGgw);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 30px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+background-color: white;
+  box-shadow: 0 0 10px #dbdbdb, 0 0 20px #fffbfb;
+  transform: scale(1.05)
+}
+
+#affirmOut {
+  font-weight: bold;                  
+  color: rgb(255, 255, 255);                    
+  text-align: left;               
+  font-size: 22px;                   
+  text-shadow: 0 0 10px #ff99cc, 0 0 20px #ffd6f5;
+  transition: all 0.3s ease;          
+  margin-top: 20px;
+}
+
+#affirmOut.active {
+  text-shadow: 0 0 20px #ff99cc, 0 0 40px #ffd6f5;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0;
+}
+
+footer img {
+  width: 120px;       
+  display: block;
+  margin: 0 auto 10px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #666;
+  font-family: 'Courier New', monospace;
+}
